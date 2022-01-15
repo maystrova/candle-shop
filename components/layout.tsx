@@ -1,9 +1,11 @@
-import React from 'react'
+import styles from './layout.module.scss'
 
-interface LayoutProps {}
+interface LayoutProps {
+    children: React.ReactChild
+}
 
-const Layout = ({}: LayoutProps) => {
-    return <div></div>
+const Layout = ({ children }: LayoutProps) => {
+    return <div className={styles.container}>{children}</div>
 }
 
 export default Layout
