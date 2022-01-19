@@ -12,7 +12,7 @@ const ErrorPage = ({}: ErrorPageProps) => {
             <main>
                 <div>This page does not exist!</div>
                 <div>
-                    <span>Go to</span>
+                    <span>Go to </span>
                     <Link href='/'>
                         <a>Home Page</a>
                     </Link>

@@ -18,7 +18,7 @@ const Home = ({}: HomeProps) => {
             children={
                 <div>
                     <nav>
-                        <h1 onClick={titleClickHandler}>Askka</h1>
+                        <h1>Askka</h1>
                     </nav>
                 </div>
             }
