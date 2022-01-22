@@ -2,6 +2,7 @@ import React from 'react'
 import Layout from 'components/layout'
 
 import Router from 'next/router'
+import { Header } from 'components/header'
 
 interface HomeProps {}
 
@@ -17,9 +18,7 @@ const Home = ({}: HomeProps) => {
             headTitle={homePageHeadTitle}
             children={
                 <div>
-                    <nav>
-                        <h1>Askka</h1>
-                    </nav>
+                    <Header />
                 </div>
             }
         />

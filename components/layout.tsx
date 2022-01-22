@@ -1,6 +1,8 @@
 import React from 'react'
-import styles from '../styles/layout.module.scss'
+
 import Head from 'next/head'
+
+import styles from 'styles/layout.module.scss'
 
 interface LayoutProps {
     children: React.ReactChild
