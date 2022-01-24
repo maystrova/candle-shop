@@ -3,3 +3,10 @@ export type HeaderMenuType = {
     id: number
     onClick: () => void
 }
+
+export type HeaderUserActionMenu = {
+    icon: string
+    id: number
+    quantity?: number
+    onClick: () => void
+}

@@ -1,0 +1,13 @@
+.addTop {
+    background: black;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    color: #ccc;
+    font-size: 13px;
+    padding: 5px 50px;
+
+    @media (max-width: 1000px) {
+        display: none;
+    }
+}

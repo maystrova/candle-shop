@@ -3,6 +3,7 @@ import Layout from 'components/layout'
 
 import Router from 'next/router'
 import { Header } from 'components/header'
+import AdditionalTop from '../components/additionalTop'
 
 interface HomeProps {}
 
@@ -18,6 +19,7 @@ const Home = ({}: HomeProps) => {
             headTitle={homePageHeadTitle}
             children={
                 <div>
+                    <AdditionalTop />
                     <Header />
                 </div>
             }
